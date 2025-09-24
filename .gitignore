@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# FastAPI / Uvicorn / Gunicorn
+*.pid
+*.sock
+
+# Node.js / React
+node_modules/
+build/
+dist/
+.env.local
+.env.development
+.env.production
+
+# Docker
+.env
+*.tar
+*.gz
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes e relatórios
+coverage/
+*.cover
+*.lcov
+htmlcov/
+
+# Arquivos de ambiente virtual (caso use venv)
+venv/
+.env/
