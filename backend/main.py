@@ -1,9 +1,6 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import pandas as pd
-from io import BytesIO
-from services.analytics import generate_insights
-from services.visuals import generate_graphs
+from routers import upload
 
 app = FastAPI(
     title="Insightly API",
